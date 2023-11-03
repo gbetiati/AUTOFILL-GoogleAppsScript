@@ -32,11 +32,11 @@ function ProcFunction(e) {
     
     if (TipoAcao=='APOSENTADORIA POR INVALIDEZ' || TipoAcao=='AUX.DOENÇA' || TipoAcao=='AUX.ACIDENTE') {
       var urlTemplate = ("152EmgdmyTXtBSTaw5I2_5llLQewxrZhurY-cWrfKJ2w");
-    }else if (TipoAcao=='CONTAGEM DE TEMPO' ||TipoAcao=='REVISÃO BENEFICIO' || TipoAcao=='CONCESSÃO     APOSENTADORIA') {
+    }else if (TipoAcao=='CONTAGEM DE TEMPO' ||TipoAcao=='REVISÃO BENEFICIO' || TipoAcao=='CONCESSÃO APOSENTADORIA') {
       var urlTemplate = ("1N92jNrB-2c3LTQk8");
     }else {
       var urlTemplate = ("1NKotqS9grYVTjLfqvIvxc");
-    }Ws
+    }
     
     var TemplateDocu = DriveApp.getFileById(urlTemplate);
     var PastaDest = DriveApp.getFolderById("1ymBLodt1OMr3YmsgCtgFF");
